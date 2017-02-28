@@ -1,0 +1,21 @@
+@media screen and (min-width: 480px) {
+  #primary{
+    width: 50%;
+    float: left;
+  }
+  #secondary{
+    width: 50%;
+    float: right;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  #gallery li{
+    width: 21%;
+    margin: 4.5%;
+
+  }
+  #gallery li:nth-child(4n){
+    clear: left;
+  }
+}
