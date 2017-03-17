@@ -1,34 +1,26 @@
-/*
-.bg {
-  background: url('Photos/brussels.jpg') no-repeat center center;
-  position: fixed;
-  width: 100%;
-  height: 27em;
-  top:0;
-  left:0;
-  z-index: -1;
-}
-
 .jumbotron {
-  height: 27em;
-  color: white;
-  text-shadow: #444 0 1px 1px;
-  background:transparent;
-  margin: 0 0;
-}
-*/
-
-.jumbotron {
-  background-image: url('photos/brussels.jpg');
+  background-image: url('Cover Photo/brussels.jpg');
   background-size: cover;
   color: white;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+
 }
 
-body {
-  padding-top: 60px;
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
 }
-@media (max-width: 979px) {
-  body {
-    padding-top: 20px;
-  }
+
+#wrapper{
+  position: relative;
+  margin-top: 100vh;
+  background-color: white;
+}
+#smallNavBar{
+/*  height: 100vh;*/
 }
