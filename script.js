@@ -21,7 +21,7 @@ const jumpUp = $('#jumpUp');
 jumpUp.hide();
 
 $(window).scroll(function() {
-  if ($(this).scrollTop() > vh + 80) {
+  if ($(this).scrollTop() > vh) {
     jumpUp.show("slow");
   }
   else {
