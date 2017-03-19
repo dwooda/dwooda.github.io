@@ -21,6 +21,39 @@
   margin-top: 100vh;
   background-color: white;
 }
+#content{
+  padding-top: 60px;
+}
+
+#navBarNav{
+  margin-bottom: -40px;
+}
+
 #smallNavBar{
-/*  height: 100vh;*/
+  height: 100vh;
+}
+
+.resize {
+    width: 30px;
+    height: auto;
+}
+
+.resize {
+    width: 30px;
+    height: auto;
+}
+
+#jumpUp{
+  background: none;
+  z-index: 100;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+#jumpUp:visited{
+  color: orange;
 }

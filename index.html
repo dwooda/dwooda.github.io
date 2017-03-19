@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -7,7 +7,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- Customized CSS -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="main.css">
+
   </head>
 
   <body>
@@ -24,12 +26,12 @@
 <!-- Beggining of 'real' body -->
 <div id = "wrapper">
     <!-- Constant navbar -->
-        <nav class="navbar navbar-toggleable-sm navbar-light bg-faded hidden-sm-down">
+        <nav class="navbar navbar-toggleable-sm navbar-light bg-faded hidden-sm-down" id="navBarNav">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id = "zero">
             <span class="navbar-toggler-icon"></span>
           </button>
           <a class="navbar-brand" href="#zero">Menu</a>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse">
             <ul class="navbar-nav">
               <li class="nav-item active">
                 <a class="nav-link" href="#start">Start <span class="sr-only">(current)</span></a>
@@ -56,8 +58,8 @@
           </div>
         </nav>
 
-        <div id = "smallNavBar" class = "hidden-md-up">
-        <nav class="navbar nav nav-tabs navbar-light bg-faded flex-column hidden-md-up ">
+        <div class = "hidden-md-up">
+        <nav class="navbar nav nav-tabs navbar-light bg-faded flex-column hidden-md-up" id = "smallNavBar">
             <ul class="navbar-nav">
               <li class="nav-item active">
                 <a class="nav-link" href="#start">Start <span class="sr-only">(current)</span></a>
@@ -84,8 +86,15 @@
           </nav>
         </div>
 
-    <!-- Start -->
+<!-- Jump up button! -->
 
+<div class = "hidden-md-up">
+  <a href=#smallNavBar id = "jumpUp" style = ”display: inline;”>
+    <img class = "resize" src = "jumpUp.png" alt = "">
+  </a>
+</div>
+    <!-- Start -->
+<div id = "content">
     <div class = "container text-left pt-5" id = "start">
         <div class = "row">
           <div class = "col-sm-6">
@@ -134,7 +143,7 @@
         </div>
         <div class = "row">
           <div class = "col-sm-4">
-            <img class="card-img-top img-fluid" src="Photos\cocodonuts.jpg" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="Photos\Cocodonuts.jpg" alt="Card image cap">
             <div class="card-block">
               <h4 class="card-title d-inline">Coco Donuts</h4>
               <p class="card-text">Small, homey donuts bakery.</p>
@@ -142,7 +151,7 @@
             </div>
           </div>
           <div class = "col-sm-4">
-            <img class="card-img-top img-fluid" src="Photos\karsmakers.jpg" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="Photos\Karsmakers.jpg" alt="Card image cap">
             <div class="card-block">
               <h4 class="card-title d-inline">Karsmakers</h4>
               <p class="card-text">Another bakery - they specialize in bagels.</p>
@@ -163,7 +172,7 @@
       <div class = "container">
         <div class = "row">
           <div class = "col-sm-4">
-            <img class="card-img-top img-fluid" src="Photos\biamara.jpg" alt="Card image cap">
+            <img class="card-img-top img-fluid" src="Photos\Biamara.jpg" alt="Card image cap">
             <div class="card-block">
               <h4 class="card-title d-inline">Bia Mara</h4>
               <p class="card-text">Excellent Fish & Chips joint. They also serve Shnitzel</p>
@@ -193,7 +202,7 @@
             <div class="card-block">
               <h4 class="card-title d-inline">Fritkot</h4>
               <p class="card-text">Famous frites joint (belgian chips, some say they are the best).</p>
-              <p class="card-text"><small class="text-muted">Cheap and yummy!</small></p>
+              <p class="card-text"><small class="text-muted">cheap and yummy!</small></p>
             </div>
           </div>
           <div class = "col-sm-4">
@@ -347,7 +356,7 @@
             </div>
       </div>
     </div>
-
+  </div>
 </div>
 
 
