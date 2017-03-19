@@ -57,3 +57,18 @@
 #jumpUp:visited{
   color: orange;
 }
+
+.card-block{
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.card-block a{
+  position: absolute;
+  bottom: 35px;
+  right: 0px;
+}
+
+.card-block p{
+  margin-right: 15px;
+}
